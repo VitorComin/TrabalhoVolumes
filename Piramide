@@ -1,0 +1,18 @@
+package Volumes;
+
+public class Piramide{
+    double larguraBase;
+    double comprimentoBase;
+    double altura;
+    double volume;
+
+    double volumePiramide(){
+        volume = ((larguraBase * comprimentoBase) * altura / 3);
+        return volume;
+    }
+    public Piramide (double larguraBase, double     comprimentoBase, double altura){
+    this.comprimentoBase = comprimentoBase;
+    this.altura = altura;
+    this.larguraBase = larguraBase;
+    }
+}
