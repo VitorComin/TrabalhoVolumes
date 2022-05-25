@@ -1,0 +1,17 @@
+package Volumes;
+
+class Main {
+  public static void main(String[] args) {
+    Cubo cubo = new Cubo(5,5,5);
+    System.out.println("o volume do cubo é" + cubo.volumeCubo());
+
+    Cilindro cilindro = new Cilindro(5,5);
+        System.out.println("O volume do cilindro é: " + cilindro.volumeCilindro());
+
+    Piramide piramide = new Piramide(5,5,5);
+    System.out.println("O volume da piramide é:" + piramide.volumePiramide());
+
+      Bloco bloco = new Bloco(5,5,5);
+    System.out.println("o volume do Bloco é" + bloco.volumeBloco());
+  }
+}
