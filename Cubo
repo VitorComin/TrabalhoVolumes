@@ -1,0 +1,18 @@
+package Volumes;
+
+public class Cubo{
+    double largura;
+    double altura;
+    double comprimento;
+    double volume;
+    
+    double volumeCubo(){
+    volume = (comprimento * largura * altura);
+        return volume;
+}
+    public Cubo (double largura, double comprimento,     double altura){
+    this.largura = largura;
+    this.comprimento = comprimento;
+    this.altura = altura;
+    }
+}
