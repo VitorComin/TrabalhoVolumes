@@ -1,0 +1,18 @@
+package Volumes;
+
+public class Bloco{
+    double largura;
+    double altura;
+    double comprimento;
+    double volume;
+    
+    double volumeBloco(){
+    volume = (comprimento * largura * altura);
+        return volume;
+}
+    public Bloco (double largura, double comprimento,     double altura){
+    this.largura = largura;
+    this.comprimento = comprimento;
+    this.altura = altura;
+    }
+}
