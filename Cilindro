@@ -1,0 +1,19 @@
+package Volumes;
+
+public class Cilindro {
+    double volume;
+    double raio;
+    double altura;
+    double pi = 3.14;
+    
+    public double volumeCilindro() {
+        volume = pi * (raio * raio) * altura;
+        return volume;
+    }
+    
+    public Cilindro(double raio, double altura) {
+        this.raio = raio;
+        this.altura = altura;
+
+    }
+}
